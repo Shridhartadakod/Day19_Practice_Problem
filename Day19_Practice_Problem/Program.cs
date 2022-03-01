@@ -13,6 +13,7 @@ namespace Day19_Practice_Problem
             Console.WriteLine("USer Regestration:");
             User_Regestration registration = new User_Regestration();
             registration.FirstName();
+            registration.LastName();
             Console.ReadKey();
         }
     }

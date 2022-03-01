@@ -21,6 +21,17 @@ namespace Day19_Practice_Problem
                 Console.WriteLine("Please enter the valid name..");
         }
 
+        public void LastName()
+        {
+            Console.WriteLine("Enter the last name = ");
+            string name = Console.ReadLine();
+            string pattern = "^[A-Z][a-zA-Z]{2,}$";
+            if (Validate(name, pattern))
+                Console.WriteLine("The entered last name is valid!!");
+            else
+                Console.WriteLine("Please enter the valid last name..");
+        }
+
         //Creating method to check validation
         public bool Validate(string info, string Pattern)
         {
