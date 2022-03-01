@@ -15,6 +15,7 @@ namespace Day19_Practice_Problem
             registration.FirstName();
             registration.LastName();
             registration.EmailId();
+            registration.MobileNumber();
             Console.ReadKey();
         }
     }
