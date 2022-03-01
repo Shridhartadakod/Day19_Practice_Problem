@@ -14,6 +14,7 @@ namespace Day19_Practice_Problem
             User_Regestration registration = new User_Regestration();
             registration.FirstName();
             registration.LastName();
+            registration.EmailId();
             Console.ReadKey();
         }
     }

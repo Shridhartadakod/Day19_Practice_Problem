@@ -32,6 +32,18 @@ namespace Day19_Practice_Problem
                 Console.WriteLine("Please enter the valid last name..");
         }
 
+        public void EmailId()
+        {
+            Console.Write("Enter the email id = ");
+            string emailId = Console.ReadLine();
+            string pattern = "^[A-Za-z0-9]{3,}([.][A-Za-z0-9]{3,})?[@][a-zA-Z]{2,}[.][a-zA-Z]{2,}([.][a-zA-Z]{2})?$";
+
+            if (Validate(emailId, pattern))
+                Console.WriteLine("The entered email id is valid!!");
+            else
+                Console.WriteLine("Please enter the valid email id..");
+        }
+
         //Creating method to check validation
         public bool Validate(string info, string Pattern)
         {
