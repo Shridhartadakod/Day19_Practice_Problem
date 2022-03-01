@@ -11,6 +11,9 @@ namespace Day19_Practice_Problem
         static void Main(string[] args)
         {
             Console.WriteLine("USer Regestration:");
+            User_Regestration registration = new User_Regestration();
+            registration.FirstName();
+            Console.ReadKey();
         }
     }
 }
